@@ -16,5 +16,5 @@ it('work with undefined and null input', () => {
 })
 it('not return more than 3 items', () => {
     expect(googleSearch('.com',dbMock).length).toEqual(3)
-    expect(googleSearch('c',dbMock).length).toNotEqual(4)
+    expect(googleSearch('c',dbMock).length).toEqual(3)
 })
